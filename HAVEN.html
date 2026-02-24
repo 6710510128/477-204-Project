@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAVEN | Simplicity, Refined</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #EFE9E3;
+            color: #2D2D2D;
+        }
+        .fade-in {
+            animation: fadeIn 1.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="flex justify-between items-center px-8 py-6 md:px-20">
+        <div class="text-2xl font-bold tracking-widest">HAVEN</div>
+        <div class="hidden md:flex space-x-8 text-sm uppercase tracking-wider opacity-70">
+            <a href="#" class="hover:opacity-100 transition">Features</a>
+            <a href="#" class="hover:opacity-100 transition">Philosophy</a>
+            <a href="#" class="hover:opacity-100 transition">Pricing</a>
+        </div>
+        <a href="#" class="bg-[#2D2D2D] text-[#EFE9E3] px-6 py-2 text-sm rounded-full hover:bg-black transition">Get Started</a>
+    </nav>
+
+    <section class="flex flex-col items-center text-center px-6 py-24 md:py-40 fade-in">
+        <h1 class="text-5xl md:text-7xl font-light tracking-tighter mb-6">
+            Simplicity, <span class="italic text-gray-500">refined.</span>
+        </h1>
+        <p class="text-lg md:text-xl opacity-70 max-w-xl mb-10 font-light">
+            Your sanctuary for [Product Category]. No noise, just essentials.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4">
+            <button class="bg-[#2D2D2D] text-[#EFE9E3] px-10 py-4 rounded-full text-lg hover:scale-105 transition-transform">
+                Experience HAVEN
+            </button>
+        </div>
+        <p class="mt-6 text-sm opacity-50 italic">No credit card required. Setup in 2 minutes.</p>
+    </section>
+
+    <section class="bg-white/30 py-24 px-8 md:px-20">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-16">
+            <div class="space-y-4">
+                <h3 class="text-xl font-semibold">Intuitive Design</h3>
+                <p class="opacity-70 leading-relaxed text-sm">We stripped away the bloat to focus on your workflow. Zero learning curve.</p>
+            </div>
+            <div class="space-y-4">
+                <h3 class="text-xl font-semibold">Seamless Sync</h3>
+                <p class="opacity-70 leading-relaxed text-sm">Built to live wherever you do, instantly. Focus, uninterrupted.</p>
+            </div>
+            <div class="space-y-4">
+                <h3 class="text-xl font-semibold">Quiet Tech</h3>
+                <p class="opacity-70 leading-relaxed text-sm">No intrusive notifications or "dark patterns." Peace of mind.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-8 text-center border-t border-black/5">
+        <p class="text-2xl italic font-light max-w-3xl mx-auto opacity-80">
+            "HAVEN didn't just give me a tool; it gave me my time back. The interface is so clean it’s almost invisible."
+        </p>
+        <p class="mt-6 uppercase tracking-widest text-sm font-semibold">— Alex Rivera, Creative Director</p>
+    </section>
+
+    <section class="bg-[#2D2D2D] text-[#EFE9E3] py-20 text-center">
+        <h2 class="text-3xl md:text-4xl mb-8 font-light">Ready to find your center?</h2>
+        <button class="border border-[#EFE9E3] px-12 py-4 rounded-full hover:bg-[#EFE9E3] hover:text-[#2D2D2D] transition-all">
+            Start Your Free Trial
+        </button>
+    </section>
+
+    <footer class="py-10 px-8 flex justify-between items-center text-[10px] uppercase tracking-[0.2em] opacity-50">
+        <div>HAVEN © 2026</div>
+        <div class="space-x-4">
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>
